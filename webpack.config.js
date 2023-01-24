@@ -58,7 +58,7 @@ module.exports = {
       filename: "remoteEntry.js",
       remotes: {},
       exposes: {
-        "./AppIndex": "./src/bootstrap",
+        "./AppIndex": "./src/App",
       },
       shared: {
         react: {
