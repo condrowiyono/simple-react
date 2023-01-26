@@ -16,7 +16,7 @@ module.exports = {
   },
 
   devServer: {
-    port: 9000,
+    port: 9001,
     historyApiFallback: true,
     headers: {
       "Access-Control-Allow-Origin": "*",
@@ -59,6 +59,7 @@ module.exports = {
       remotes: {},
       exposes: {
         "./AppIndex": "./src/App",
+        "./Card": "./src/components/Cart",
       },
       shared: {
         react: {
