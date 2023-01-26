@@ -59,7 +59,7 @@ module.exports = {
       remotes: {},
       exposes: {
         "./AppIndex": "./src/App",
-        "./Card": "./src/components/Cart",
+        "./Cart": "./src/components/Cart",
       },
       shared: {
         react: {
